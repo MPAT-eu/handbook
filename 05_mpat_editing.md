@@ -34,8 +34,13 @@ The Page Layout defines the layout of a page of the HbbTV App without defining a
   	- Scroll to the *Publish* editor item and save the Page Layout either as a draft or publish it so that it can be used in for page building
     	- To preview changes to a Page Layout, you can also select *Preview* and the page of the HbbTV App will be shown in the browser
 
-Figure 5‑1: Layout Builder – view for a new Page Layout
-Figure 5‑2: Select background image for Page Layout
+![Layout Builder](/images/layout.png)
+
+*Figure 5‑1:* Layout Builder – view for a new Page Layout
+
+![Background Selector](/images/background.png)
+
+*Figure 5‑2:* Select background image for Page Layout
 
 ### Create a Page
 
@@ -75,7 +80,9 @@ Description:
 
 A hotspot is an interactive icon that can be used to show additional information like text, video or audio. Accordingly, three types of hotspot icons exist, text, video and audio, as illustrated in **Fig.**** 5-3**.
 
-Figure 5‑3
+![Hotspots](/images/hotspot.png)
+
+*Figure 5‑3*: Hotspot Icons
 
 The general idea of a hotspot is to add it as additional information on top of a larger image, for instance.
 

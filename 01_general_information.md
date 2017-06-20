@@ -40,11 +40,11 @@ The original idea was to use MPAT to create *simple* pages that look like tradit
 
 ![Traditional Website - 1](/images/web_1.png)
 
-Figure 1‑2: Traditional website design for an HbbTV application - taken from RBB's HbbTV app *verknallt &amp; abgedreht* (November 2015)
+*Figure 1‑2:* Traditional website design for an HbbTV application - taken from RBB's HbbTV app *verknallt &amp; abgedreht* (November 2015)
 
 ![Traditional Website - 2](/images/web_2.png)
 
-Figure 1‑3: Simple website navigation: image tiles lead to linked pages - example from RBB's first pilot application Band Camp Berlin (2016)
+*Figure 1‑3:* Simple website navigation: image tiles lead to linked pages - example from RBB's first pilot application Band Camp Berlin (2016)
 
 #### SlideFlow
 
@@ -54,8 +54,8 @@ Visitors navigate this application with the Arrow Up/Arrow Down buttons on the R
 
 ![SlideFlow - 1](/images/slideflow_1.png)
 
-Figure 1‑4: SlideFlow page - taken from the first RBB pilot *Band Camp Berlin*
+*Figure 1‑4:* SlideFlow page - taken from the first RBB pilot *Band Camp Berlin*
 
 ![SlideFlow - 2](/images/slideflow_2.png)
 
-Figure 1‑5: SlideFlow page with Audio and Video Hotspots - taken from the first RBB pilot *Band Camp Berlin* (2016)
+*Figure 1‑5:* SlideFlow page with Audio and Video Hotspots - taken from the first RBB pilot *Band Camp Berlin* (2016)

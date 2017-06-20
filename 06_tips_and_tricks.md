@@ -17,7 +17,8 @@ In contrast to websites on a PC, you don't navigate with a pointer device (e.g. 
 
 You can define a certain style for any component or for all components (i.e., border, background color, text color, etc.).1  The text box to the right will show the current style, once you click in another field.
 
+![Component Styles](/images/component_styles.png)
 
-Figure 6‑1: Editing Component Styles
+*Figure 6‑1:* Editing Component Styles
 
 You will find this Component Style Editor in the Content Editor of any Page that you edit.

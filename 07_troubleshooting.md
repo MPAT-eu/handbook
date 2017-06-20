@@ -11,6 +11,6 @@ A number of issues will have been mentioned above. In these cases we will refer 
 
 ### The editor does not accept my changes
 
-If you use Firefox both for editing and previewing, you will have to disable FireHbbTV every time you go back to editing:
+If you use Firefox both for editing and previewing, you will have to disable FireHbbTV every time you go back to editing.
 
 If you don't the editor may not work properly.
