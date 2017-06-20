@@ -12,11 +12,11 @@ Neither the MPAT consortium as a whole, nor a certain party of the MPAT consorti
 
 ## Table of Contents ##
 
-* General Information
-* Requirements and First Steps
-* Overview of the MPAT Editor
-* Quickstart
-* MPAT Editing
-* Tips and Tricks
-* Troubleshooting
-* Terminology
+* [General Information](https://mpat-eu.github.io/handbook/01_general_information.html)
+* [Requirements and First Steps](https://mpat-eu.github.io/handbook/02_requirements_and_first_steps.html)
+* [Overview of the MPAT Editor](https://mpat-eu.github.io/handbook/03_overview_of_the_mpat_editor.html)
+* [Quickstart](https://mpat-eu.github.io/handbook/04_quickstart.html)
+* [MPAT Editing](https://mpat-eu.github.io/handbook/05_mpat_editing.html)
+* [Tips and Tricks](https://mpat-eu.github.io/handbook/06_tips_and_tricks.html)
+* [Troubleshooting](https://mpat-eu.github.io/handbook/07_troubleshooting.html)
+* [Terminology](https://mpat-eu.github.io/handbook/08_terminology.html)
