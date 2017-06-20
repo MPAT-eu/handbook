@@ -1,4 +1,4 @@
-# The MPAT Handbook #
+# The MPAT Handbook
 
 A guide for content creators and editors, designed to assist in the creation of interactive TV applications using the [Multi-Platform Application Toolkit](http://mpat.eu). 
 
@@ -10,7 +10,7 @@ This document may contain material, which is the copyright of certain MPAT conso
 
 Neither the MPAT consortium as a whole, nor a certain party of the MPAT consortium warrant that the information contained in this document is capable of use, nor that use of the information is free from risk, and does not accept any liability for loss or damage suffered by any person using this information.
 
-## Table of Contents ##
+## Table of Contents
 
 * [General Information](https://mpat-eu.github.io/handbook/01_general_information.html)
 * [Requirements and First Steps](https://mpat-eu.github.io/handbook/02_requirements_and_first_steps.html)

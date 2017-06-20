@@ -26,6 +26,8 @@ MPAT is a tool for journalists. Therefore, the initial idea when conceiving the 
 
 3. Step 3 describes the final step in the application creation process: The previously created application model is populated with actual content data. This involves creating, uploading and updating content data and as well as testing, previewing, approving and publishing the actual HbbTV application.
 
+![MPAT Workflow](/images/workflow.png)
+
 Figure 1‑1: General workflow for developing an MPAT Application in a journalistic context
 
 ### Application Design & Navigation Models
