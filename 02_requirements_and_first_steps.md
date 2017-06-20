@@ -1,6 +1,6 @@
-## Requirements and First Steps ##
+## Requirements and First Steps
 
-### Software Setup ###
+### Software Setup
 
 A standard Internet browser like Google Chrome (Version), Mozilla Firefox (Version) or MS Internet Explorer (Version) is required **to use the MPAT editor tool** and to start creating HbbTV applications.
 
@@ -24,7 +24,7 @@ Install Firefox Add-on **FireHbbTV 1.3.20** or newer by Atos Worldline:
   + Install FireHbbTV plug-in
 + Restart Mozilla Firefox
 
-### User Account ###
+### User Account
 
 A user account is required to actually access the MPAT editor tool with an Internet browser. The account is provided by the system administrator.
 

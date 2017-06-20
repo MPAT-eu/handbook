@@ -1,4 +1,4 @@
-## General Information ##
+## General Information
 
 This manual outlines and explains how to use the Multiplatform Application Toolkit: MPAT. MPAT is a WordPress-based authoring toolkit that allows easy creation and development of interactive applications for HbbTV. MPAT implements **HbbTV standards v1.0, v1.5,** and **v2.0** and supports the standard HbbTV **screen size of 1280x720 px**. Applications built with MPAT can either be viewed on a Smart TV that supports the HbbTV standard versions named above or, alternatively, MPAT can be previewed on the Firefox Internet browser using the Firefoxadd-on FireHbbTV.
 
@@ -11,7 +11,7 @@ In addition to the general design of the application structure and layout, MPAT 
 + **Terminology** - Some of the labels used in the editor are still WordPress-terminology. For example, the WordPress-term *site* or *MPAT site*is used. In MPAT-terminology this would be *HbbTV app* and, hence, a *site* denotes an *HbbTV application*. See also Terminology.
 + **Scope** –The manual does not yet describe all aspects and all details of the MPAT editor tool; this is also because a couple of features that are visible in the editor are simple placeholders and have not been implemented.
 
-### The MPAT Workflow ###
+### The MPAT Workflow
 
 MPAT is a tool for journalists. Therefore, the initial idea when conceiving the editor was to split the application development process into three steps, illustrated in **Fig. 1** :
 
@@ -28,11 +28,11 @@ MPAT is a tool for journalists. Therefore, the initial idea when conceiving the 
 
 Figure 1‑1: General workflow for developing an MPAT Application in a journalistic context
 
-### Application Design & Navigation Models ###
+### Application Design & Navigation Models
 
 The design of HbbTV applications with MPAT is closely related to the selected navigation model. The current version of MPAT (February 2017) enables two different navigation models, **Website** and **SlideFlow**. Another model, **Timeline**, is scheduled for release in Fall 2017.
 
-#### Website ####
+#### Website
 
 The original idea was to use MPAT to create *simple* pages that look like traditional websites. The Navigation Model is based on buttons, clickable tiles or an overall menu. Clicking on either will lead to another page. Website allows a flexible arrangement of pages and supports user-defined navigation.
 
@@ -42,7 +42,7 @@ Figure 1‑2: Traditional website design for an HbbTV application - taken from R
 
 Figure 1‑3: Simple website navigation: image tiles lead to linked pages - example from RBB's first pilot application Band Camp Berlin (2016)
 
-#### SlideFlow ####
+#### SlideFlow
 
 SlideFlow is the MPAT term for a very visual, very simple navigation style which resembles PowerPoint™ presentations to a large extent: full screen images, little text, occasionally interaction components or videos embedded (see screenshots below). This Navigation Model is based on the popular web format Pageflow ([http://pageflow.io](http://pageflow.io)). SlideFlow is story-based and restricts the navigation to one-directional movement in order to support the consecutive flow of pages to tell a story.
 

@@ -1,6 +1,6 @@
-## Terminology ##
+## Terminology
 
-This glossary aims to explain the necessary terms and functions
+This glossary aims to explain the necessary terms and functions:
 
 | Term | Definition |
 |-|-|

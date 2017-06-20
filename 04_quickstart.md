@@ -1,4 +1,4 @@
-## Quickstart ##
+## Quickstart
 
 The quickstart section outlines how to build an MPAT application – quickly. Necessary steps are listed subsequently and will be explained in detail in the consecutive sections below.
 

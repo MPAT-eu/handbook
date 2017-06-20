@@ -1,6 +1,6 @@
-## MPAT Editing ##
+## MPAT Editing
 
-### Choose a Navigation Model ###
+### Choose a Navigation Model
 
 Description:
 
@@ -17,7 +17,7 @@ Howto:
 - Select *Navigation Model*
 - Select *Save Changes*
 
-### Create a Page Layout ###
+### Create a Page Layout
 
 Description:
 
@@ -37,7 +37,7 @@ The Page Layout defines the layout of a page of the HbbTV App without defining a
 Figure 5‑1: Layout Builder – view for a new Page Layout
 Figure 5‑2: Select background image for Page Layout
 
-### Create a Page ###
+### Create a Page
 
 *Description:*
 
@@ -69,7 +69,7 @@ The actual pages of an HbbTV App can be created with the help of a previously de
 
 To preview changes to a page, you can also select *Preview* and the page of the HbbTV App will be shown in the browser.
 
-#### Create a Hotspot ####
+#### Create a Hotspot
 
 Description:
 
@@ -96,9 +96,9 @@ Howto:
   - Customize the hotspot, i.e., choose colors, add text or links to the media data
   - *Update* the page to save it
 
-### Configure the Navigation ###
+### Configure the Navigation
 
-#### Define a Start Page ####
+#### Define a Start Page
 
 Description:
 
@@ -110,7 +110,7 @@ Howto:
 - Select *Frontpage*
 - Choose the first page of your application from the dropdown list
 
-#### Add a Menu to Connect Pages ####
+#### Add a Menu to Connect Pages
 
 Description:
 
@@ -134,7 +134,7 @@ This key can later be pressed on the remote control to jump to the page directly
   - Scroll to the *Publish* editor item (top right) and update the page.
   - In the Content Editor widget select *Back*.
 
-#### Add Links to Connect Pages ####
+#### Add Links to Connect Pages
 
 Description:
 
@@ -156,7 +156,7 @@ Howto:
   - Scroll to the *Publish* editor item (top right) and update the page.
   - In the Content Editor widget select *Back*.
 
-#### Define the Order of Pages (SlideFlow only) ####
+#### Define the Order of Pages (SlideFlow only)
 
 Description:
 
@@ -168,11 +168,11 @@ Howto:
 - Verify that the selected Navigation model is *Pageflow* (should be SlideFlow)
 - Define the order of pages at *Pageflow pages order* (*exclude* pages that should remain invisible).
 
-### Customize the Application ###
+### Customize the Application
 
 The options described here are provided by the *Appearance* menu and have an effect on the overall MPAT site. Individual changes to the elements of an MPAT page can be made when configuring the content components under *Component Style* (see also Create a Page).
 
-#### Customize Links ####
+#### Customize Links
 
 Description:
 
@@ -185,7 +185,7 @@ Howto:
 - Change the color at *Edit Selected Border Color*
 - At the top of the menu select *Save &amp; Publish*
 
-#### Focus & Active Elements ####
+#### Focus & Active Elements
 
 Description:
 
@@ -198,7 +198,7 @@ Howto:
 - Change the color at *Edit Selected Border Color*
 - At the top of the menu select *Save &amp; Publish*
 
-### Publish the Application ###
+### Publish the Application
 
 Description:
 

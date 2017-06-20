@@ -1,13 +1,10 @@
-## Overview of the MPAT Editor ##
+## Overview of the MPAT Editor
 
 MPAT is based on WordPress. The main editor window is therefore very similar to a WordPress editor view and is illustrated in Fig. 6. The subsequent sections will briefly outline the different menus and the underlying functionalities.
 
-
-
 Figure 3‑1: MPAT Dashboard - Start view
 
-
-### Top Bar ###
+### Top Bar
 
 In the **top bar** you see an overview of 
 
@@ -21,7 +18,7 @@ In the **top bar** you see an overview of
 - The currently selected MPAT site -> Edit Site
 
 
-### Left Menu Bar ###
+### Left Menu Bar
 
 On the left side you see the left menu bar that contains all functionality to configure and define the individual MPAT pages and create the HbbTV application. The table below outlines the different functions.
 
@@ -44,7 +41,7 @@ On the left side you see the left menu bar that contains all functionality to co
 | Button Control 	| *Currently not supported* |
 | Collapse menu 	| Collapse the left menu bar. |
 
-### The Main Window ###
+### The Main Window
 
 The main window presents the parameters and options to set and define per menu item, i.e., here you can define the **page layouts** , the **pages** , the **content components** , etc. These will be described in more detail in the next sections.
 
