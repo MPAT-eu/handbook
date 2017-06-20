@@ -13,7 +13,7 @@ As in any editing session â€“ be it in a text document or media editing, etc. â€
 
 In contrast to websites on a PC, you don't navigate with a pointer device (e.g. a mouse) or your fingers on the touchscreen. In an HbbTV application you navigate with the arrow keys of your Remote Control. The point (menu button, component) where you currently are has the Focus. As a visual orientation it is recommended that the active component has a border to give the user some visual orientation. Borders (for active links, etc.) are defined globally under Appearance &gt;&gt; Customize &gt;&gt; Module Settings &gt;&gt; Edit Selected Border Color.
 
-### 6.4Edit Component Styles individually ###
+### Edit Component Styles individually ###
 
 You can define a certain style for any component or for all components (i.e., border, background color, text color, etc.).1  The text box to the right will show the current style, once you click in another field.
 
