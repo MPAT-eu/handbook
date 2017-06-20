@@ -2,7 +2,7 @@
 
 This glossary aims to explain the necessary terms and functions
 
-| h1 | h2 |
+| Term | Definition |
 |-|-|
 | Application | An application consists of *a)* 1-n pages, *b)* is based on a Scenario and *c)* follows a Navigation Model |
 | Component | A component is also referred to as content type and defines certain functionality that can be added to a page based on the selected Page Layout. For instance, a component can be an image canvas or image gallery, a video player, or a text field. |
