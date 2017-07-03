@@ -4,7 +4,8 @@
 
 Description:
 
-MPAT currently provides two different navigation models that can be used to navigate the pages of your HbbTV App:
+MPAT currently provides two different navigation models that can be used to navigate 
+the pages of your HbbTV App:
 
 - Website: classical website-like navigation using links to navigate through the pages
 - Pageflow: specific navigation for storytelling purposes; strictly one-directional (vertical) and similar to SlideFlow navigation with large visuals
