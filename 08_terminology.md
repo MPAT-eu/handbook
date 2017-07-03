@@ -3,7 +3,7 @@
 This glossary aims to explain the necessary terms and functions:
 
 | Term | Definition |
-|-|-|
+|---|---|
 | Application | An application consists of *a)* 1-n pages, *b)* is based on a Scenario and *c)* follows a Navigation Model |
 | Component | A component is also referred to as content type and defines certain functionality that can be added to a page based on the selected Page Layout. For instance, a component can be an image canvas or image gallery, a video player, or a text field. |
 | Focus | In contrast to websites on a PC, you don’t navigate with a pointer device (e.g. a mouse) or your fingers on the touchscreen. In an HbbTV application you navigate with the arrow keys of your Remote Control. The point (menu button, component) where you currently are has the Focus. As a visual orientation it is recommended that the active component has a border to give the user some visual orientation. Borders (for active links, etc.) are defined globally. |
@@ -14,4 +14,4 @@ This glossary aims to explain the necessary terms and functions:
 | Scenario | A Scenario describes what users can do using an application. This can be a concrete description of an actual application or a more generic description of what people could do. |
 | Site | In the MPAT-Editor each site represents a full HbbTV application. To avoid ambiguities, the term "website" should be replaced with "HbbTV Site" or “MP Application” (a Multi-Platform Application which is built with the Multi-Platform Application Toolkit, MPAT). |
 | Template | What we called “Template” in D2.1 is now a “Page Layout” in WordPress |
-| Use Case | A Use Case describes a certain functionality in a scenario, such as “Voting” or “Connect Second Device”. Typically, a scenario will consist of multiple use cases. |
+| Use Case | A Use Case describes a certain functionality in a scenario, such as “Voting” or “Connect Second Device”. Typically, a scenario will consist of multiple use cases. |
