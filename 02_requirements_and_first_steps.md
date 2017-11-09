@@ -38,6 +38,7 @@ Install Firefox Add-on **FireHbbTV 1.3.20** or newer by Atos Worldline:
 * Check `Developer mode`
 * Click `Load unpacked extension` and choose the location of the retrieved extension.
 * On the upper-right you'll find the following greyed-out icon
+
   ![deactivated](/images/tv-icon128-off.png)
 * Click on it to activate/de-activate
 
