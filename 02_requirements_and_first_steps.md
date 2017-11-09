@@ -4,6 +4,8 @@
 
 A standard Internet browser like Google Chrome (Version), Mozilla Firefox (Version) or MS Internet Explorer (Version) is required **to use the MPAT editor tool** and to start creating HbbTV applications.
 
+#### Firefox
+
 In order **to preview the HbbTV applications** , Mozilla Firefox v51.0.1as well as the Firefox Add-on FireHbbTV v1.3.20are needed. This Add-on must be switched on in order to preview the HbbTV application and must be switched off in order to edit the application with MPAT.
 
 **Note** : To simplify the workflow we therefore recommend using one browser that does not use FireHbbTV for editing and a Firefox browser with FireHbbTV.
@@ -23,6 +25,23 @@ Install Firefox Add-on **FireHbbTV 1.3.20** or newer by Atos Worldline:
   + Search forFireHbbTV
   + Install FireHbbTV plug-in
 + Restart Mozilla Firefox
+
+#### Chrome/Chromium
+* Get the latest version by:
+  * Download [https://github.com/karl-rousseau/ChromeHybridTvViewer/archive/master.zip](https://github.com/karl-rousseau/ChromeHybridTvViewer/archive/master.zip)
+  and unpack the contents.
+
+    OR
+  * `git clone` [git@github.com:karl-rousseau/ChromeHybridTvViewer.git](git@github.com:karl-rousseau/ChromeHybridTvViewer.git)
+
+* In Chrome/Chromium, click on the `3-dotted menu` > `More tools` > `Extensions`
+* Check `Developer mode`
+* Click `Load unpacked extension` and choose the location of the retrieved extension.
+* On the upper-right you'll find the following greyed-out icon
+  ![deactivated](/images/tv-icon128-off.png)
+* Click on it to activate/de-activate
+
+  ![activated](/images/tv-icon128-on.png)
 
 ### User Account
 
