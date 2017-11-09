@@ -18,6 +18,25 @@ Howto:
 - Select *Navigation Model*
 - Select *Save Changes*
 
+### Wizard ###
+For beginners a [`New Page Wizard`](https://github.com/jeanphilipperuijs/mpat-newpage-wizard) plugin may help understanding the workflow.
+
+When properly installed in the `Pages` menu you'll find a new button `Wizard` (depending on your language) next to or replacing the `Add New` button in the pages overview.
+![pages](images/wizard_01_pages.png)
+
+![pages](images/wizard_02_based_upon.png)
+
+![pages](images/wizard_03_choose_create.png)
+
+![pages](images/wizard_04_editlayout.png)
+
+![pages](images/wizard_05_layoutbuilder.png)
+
+![pages](images/wizard_06_pagetitle.png)
+
+
+
+
 ### Create a Page Layout
 
 Description:

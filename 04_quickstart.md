@@ -27,9 +27,10 @@ The quickstart section outlines how to build an MPAT application – quickly. Ne
 - Customize the Application
 - Publish the application by publishing all pages
 
-**Note:** If you use Firefox both for editing and previewing, you will have to disable FireHbbTV every time you go back to editing:
+**Note:** If you use Firefox or Chrome/Chromium both for editing and previewing, you will have to disable the FireHbbTV add-on (for FF) and extension for Chrome every time you go back to editing:
 - Enabled – The TV icon is blue:
-- Disabled – The TV icon is black:
-If you do not disable the Add-on when editing, the editor will not work properly. 
+- Disabled – The TV icon is grayed-out:
 
-*Workaround*: Use Chrome or any other Internet browser that does not support FireHbbTV add-on for editing and use Firefox with the FireHbbTV add-on for previewing only.
+If you do not disable these when editing, the editor will not work properly. 
+
+*Workaround*: Use another Internet browser that does not support HbbTV and use Firefox with the FireHbbTV add-on for previewing only.
