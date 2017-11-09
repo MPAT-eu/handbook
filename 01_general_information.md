@@ -1,6 +1,8 @@
 ## General Information
 
-This manual outlines and explains how to use the Multiplatform Application Toolkit: MPAT. MPAT is a WordPress-based authoring toolkit that allows easy creation and development of interactive applications for HbbTV. MPAT implements **HbbTV standards v1.0, v1.5,** and **v2.0** and supports the standard HbbTV **screen size of 1280x720 px**. Applications built with MPAT can either be viewed on a Smart TV that supports the HbbTV standard versions named above or, alternatively, MPAT can be previewed on the Firefox Internet browser using the Firefoxadd-on FireHbbTV.
+This manual outlines and explains how to use the Multiplatform Application Toolkit: MPAT. MPAT is a WordPress-based authoring toolkit that allows easy creation and development of interactive applications for HbbTV. MPAT implements **HbbTV standards v1.0, v1.5,** and **v2.0** and supports the standard HbbTV **screen size of 1280x720 px**. Applications built with MPAT can either be viewed on a Smart TV that supports the HbbTV standard versions named above or, alternatively, MPAT can be previewed on the Internet browser:
+* Firefox add-on [FireHbbTV](https://addons.mozilla.org/fr/firefox/addon/firehbbtv/)
+* Chrome extension [ChromeHybridTvViewer](https://github.com/karl-rousseau/ChromeHybridTvViewer).
 
 MPAT supports different application designs: Classical **Website** features interlinked hierarchies of MPAT pages similar to classical websites. **SlideFlow** features a story-driven structure that follows one specific direction, promotes large imagery and video content similar to the Web-documentary style *PageFlow*. Both are closely related to the underlying navigation models (see Application Design &amp; Navigation Models for more details).
 
