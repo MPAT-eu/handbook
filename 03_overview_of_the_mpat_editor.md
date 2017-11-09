@@ -31,6 +31,7 @@ On the left side you see the left menu bar that contains all functionality to co
 | Media (Library) 	| This area allows uploading and managing images, audio and video files. MPAT supports a maximum upload size of 16 MB per file. All content uploaded into the media library can be included into the MPAT pages. |
 | Pages		| This area allows creating and managing pages. |
 | Page Layouts 		| This area allows creating and managing page layouts. |
+| Page Models 		| This area allows creating and managing page models. |
 | Popups			| *Currently not supported* |
 | Functions 		| *Currently not supported* |
 | Appearance 		| This area allows customizing the MPAT theme. Changes made here are global and will affect the complete MPAT site (HbbTV application). Changes primarily can be made that will affect colors, fonts, and background images among others. |
