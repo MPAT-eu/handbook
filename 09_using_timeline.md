@@ -14,3 +14,88 @@ MPAT Application Settings. Then the watch icon of the TimeLine editor appears in
 Here is the aspect of the TimeLine editor:
 
 ![TimeLine editor](/images/timelineeditor.png)
+
+The top left large rectangle is the preview area, with a standard TV background as default image.
+In this preview area, the current page is shown.
+
+The line below is the time line with:
+
+* a zone to display events
+* a scale below
+* a red thin marker to indicate the current time in the preview area
+
+The Event Editing box below allows manual editing of events.
+
+At the bottom left, a button allows changing the list of events that can be added.
+
+To the right of that button, the current application URL is displayed.
+
+In the right sidebar:
+
+* The RESET button resets the timeline, removing all the exiting events and video in the back.
+* The RESTORE button restore the previous saved timeline.
+* The SAVE button saves the current timeline (events and video).
+* The Timeline box allow the editing of the timeline duration, specified in seconds.
+* The Add to the timeline box allows the addition of 
+  * A video page if a on-demand video is intended
+  * Any kind of event
+  * The Target page selector allows the selection of the 
+page pointed by the event to be added: the page to be added can be an existing page, or <empty>
+when you want the next event to remove the current page.
+  * The Add element button adds an element of the selected type to the timeline
+* The Streamevent container allows the specification of the streamevent characteristics,
+see the HbbTV standard.
+* The BeeBeeBox allows the creation of an XML descriptor for use with a beebeebox when
+debugging a timeline application.
+
+## Howtos
+
+### How to add an event
+
+1. In the Add to the timeline box on the right, choose a type of event
+1. Choose a Target Page, which can be an existing page or <empty> if you want the event
+to remove the currently displayed page
+1. Select the event to the left of the zone in which you want the new event to be inserted.
+1. Press "ADD ELEMENT"
+
+The event is then added to the right of the currently selected event, or the first free zone from the left.
+
+Stream Events are DVB StreamEvents. They do not have a meaningful width/duration. 
+Their apparent width is just to make them visible and selectable.
+They have a data value: in the timeline application, when a DVB StreamEvent is received,
+its data field is compared to the data value, and if it matches, the page referred
+by the Stream Event is shown.
+
+Media Events are connected to the time of the on-demand video in the back, if there
+is one. Media Events have a start time and a duration. The page that a Media Event
+refers to is shown at the beginning and hidden at the end.
+
+Time Events are connected to the time since the HbbTV application started. They otherwise 
+behave like Media Events.
+
+Clock Events are events triggered on a UTC time. They do not have a meaningful width/duration. 
+Their apparent width is just to make them visible and selectable.
+
+Key Events are events triggered by pressing a key on the remote control.
+They do not have a meaningful width/duration. 
+Their apparent width is just to make them visible and selectable.
+They have a KeyCode such as "RED", "GREEN", "BLUE", "YELLOW", "ENTER", "UP"...
+
+The display time of Key Events, Stream Events and Clock Events is artificial and only
+useful to edit them or test the preview.
+
+### How to test the preview
+
+1. Select the thin red vertical bar on the timeline and drag it to the wished preview time.
+
+### How to remove an event
+
+1. Select the event in the time line
+1. Press the button "REMOVE SELECTED" in the Event Editing box
+
+### How to move an event / change its start time
+
+There are multiple ways:
+
+1. Drag the event left or right in the time line. OR
+2. Select the event and change the Begin value in the Event Editing box
