@@ -125,3 +125,11 @@ ways of changing the duration of the event:
 1. Drag the white > on a black background at the right of the event. OR
 1. Select the event and edit the duration field in the Event Editing box.
 
+## TimeLine Wizard
+
+The first time you access the timeline editor, you get this screen:
+
+![TimeLine wizard](/images/timelinewizard.png)
+
+The text of the wizard is explicit.
+
