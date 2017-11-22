@@ -3,7 +3,22 @@
 This manual outlines and explains how to use the Multiplatform Application Toolkit: MPAT. MPAT is a WordPress-based authoring toolkit that allows easy creation and development of interactive applications for HbbTV. MPAT implements **HbbTV standards v1.0, v1.5,** and **v2.0** and supports the standard HbbTV **screen size of 1280x720 px**. Applications built with MPAT can either be viewed on a Smart TV that supports the HbbTV standard versions named above or, alternatively, MPAT can be previewed on the Internet browser with Firefox add-on [FireHbbTV](https://addons.mozilla.org/fr/firefox/addon/firehbbtv/)
  or with the Chrome extension [ChromeHybridTvViewer](https://github.com/karl-rousseau/ChromeHybridTvViewer).
 
-MPAT supports different application designs: Classical **Website** features interlinked hierarchies of MPAT pages similar to classical websites. **SlideFlow** features a story-driven structure that follows one specific direction, promotes large imagery and video content similar to the Web-documentary style *PageFlow*. Both are closely related to the underlying navigation models (see Application Design &amp; Navigation Models for more details).
+MPAT supports different application designs: Classical **Website** features interlinked 
+hierarchies of MPAT pages similar to classical websites. **SlideFlow** features a story-driven 
+structure that follows one specific direction, promotes large imagery and video content 
+similar to the Web-documentary style *PageFlow*. Both are closely related to the underlying 
+navigation models (see Application Design &amp; Navigation Models for more details). 
+MPAT also supports **TimeLine** oriented applications: the model is that of a time line, along
+which pages can be displayed, one at a time. These pages (with transparent background, otherwise 
+it makes little sense) can be displayed on top of the broadcast 
+video or on top of an on-demand video. Their appearance or disappearance can be triggered by
+different sorts of events:
+
+* a DVB StreamEvent
+* the current time of the on-demand video 
+* the time since the HbbTV application started
+* the wallclock time
+* a key stroke on the remote control
 
 In addition to the general design of the application structure and layout, MPAT features a variety of **content components** like images, video, audio, text as well as a variety of **interactive elements** like hots spots, links, and menus among others.
 
@@ -19,7 +34,7 @@ MPAT is a tool for journalists. Therefore, the initial idea when conceiving the 
 1. The journalist develops a concept for a story. This concept serves as a basis for an HbbTV application concept. The application concept is bound to the feature set of the MPAT editor, illustrated by the *MPAT Handbook*, and can be conceived together with an MPAT application creator. In other words, based on the journalistic concept and with the help of an MPAT Handbook (which describes features and development workflows), journalists and application creators develop a concept for an interactive HbbTV application.
 
 2. In a second step, the application creator picks up on the developed concept and turns it into a generic and empty (with no content) MPAT application, an **application model** , which can be re-used for different stories. Therefore, the application creator:
-	+ chooses a **navigation model**  (Website or SlideFlow)
+	+ chooses a **navigation model**  (Website or SlideFlow or TimeLine)
 	+ creates a **page layout** for each page of the application.
 
 	The page layout is an arrangement of content components per page. Content components can be populated with actual content data like video, audio, text, menus, etc.
@@ -33,7 +48,9 @@ MPAT is a tool for journalists. Therefore, the initial idea when conceiving the 
 
 ### Application Design & Navigation Models
 
-The design of HbbTV applications with MPAT is closely related to the selected navigation model. The current version of MPAT (February 2017) enables two different navigation models, **Website** and **SlideFlow**. Another model, **Timeline**, is scheduled for release in Fall 2017.
+The design of HbbTV applications with MPAT is closely related to the selected navigation 
+model. The current version of MPAT enables three different navigation 
+models, **Website**, **SlideFlow** and **Timeline**.
 
 #### Website
 
@@ -60,3 +77,17 @@ Visitors navigate this application with the Arrow Up/Arrow Down buttons on the R
 ![SlideFlow - 2](/images/slideflow_2.png)
 
 *Figure 1‑5:* SlideFlow page with Audio and Video Hotspots - taken from the first RBB pilot *Band Camp Berlin* (2016)
+
+#### TimeLine
+
+TimeLine is a navigation model with a time line, along
+which pages can be displayed, one at a time. These pages (with transparent background, otherwise 
+it makes little sense) can be displayed on top of the broadcast 
+video or on top of an on-demand video. Their appearance or disappearance can be triggered by
+different sorts of events:
+                               
+* a DVB StreamEvent (if the time line uses the broadcast video)
+* the current time of the on-demand video (if an on-demand video is used)
+* the time since the HbbTV application started
+* the wallclock time
+* a key stroke on the remote control

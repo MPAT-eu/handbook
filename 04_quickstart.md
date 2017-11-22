@@ -9,7 +9,7 @@ The quickstart section outlines how to build an MPAT application – quickly. Ne
   - Load a background image
   - Define a component layout by adding boxes
   - Save as draft / Publish the Page Layout
-- Create a Page (repeat as many as necessary)
+- Create a Page (repeat as many times as necessary)
   - Select a Page Layout
   - Add background image
   - Customize the content component(s)

@@ -17,6 +17,7 @@ Neither the MPAT consortium as a whole, nor a certain party of the MPAT consorti
 * [Overview of the MPAT Editor](https://mpat-eu.github.io/handbook/03_overview_of_the_mpat_editor.html)
 * [Quickstart](https://mpat-eu.github.io/handbook/04_quickstart.html)
 * [MPAT Editing](https://mpat-eu.github.io/handbook/05_mpat_editing.html)
+* [Using the Timeline](https://mpat-eu.github.io/handbook/09_using_timeline.html)
 * [Tips and Tricks](https://mpat-eu.github.io/handbook/06_tips_and_tricks.html)
 * [Troubleshooting](https://mpat-eu.github.io/handbook/07_troubleshooting.html)
 * [Terminology](https://mpat-eu.github.io/handbook/08_terminology.html)
