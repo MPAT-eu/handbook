@@ -48,6 +48,22 @@ see the HbbTV standard.
 * The BeeBeeBox allows the creation of an XML descriptor for use with a beebeebox when
 debugging a timeline application.
 
+## Events
+
+Events cannot overlap in the timeline. To change the order of events in the timeline, 
+you can swap two events. Select the event on the left of the pair, and press "SWAP SELECTED"
+
+Media Events and Time Events have a meaningful duration. Their duration can be changed by dragging
+the handle on the right.
+
+Other events have a constant width that has no meaning in time. The width is only useful
+to be able to edit those events, select them, move them by dragging. Because this width
+is small, the background color of the event is extended to the right of the event, with a gradient.
+The title of the page referred by the event is displayed on that fading background.
+
+![Events](/images/events.png)
+
+
 ## Howtos
 
 ### How to add an event
@@ -99,3 +115,13 @@ There are multiple ways:
 
 1. Drag the event left or right in the time line. OR
 2. Select the event and change the Begin value in the Event Editing box
+
+### How to change the duration of an event
+
+Media Events and Time Events have a meaningful duration. The page they refer to is 
+shown at the beginning of the time interval and is hidden at the end. There are two
+ways of changing the duration of the event:
+
+1. Drag the white > on a black background at the right of the event. OR
+1. Select the event and edit the duration field in the Event Editing box.
+
