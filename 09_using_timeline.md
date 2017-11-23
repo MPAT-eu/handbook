@@ -131,5 +131,8 @@ The first time you access the timeline editor, you get this screen:
 
 ![TimeLine wizard](/images/timelinewizard.png)
 
-The text of the wizard is explicit.
+The text of the wizard is explicit. The principle is that you can choose between
+a standard broadcast editor with just Stream Events, a standard VOD editor with
+just Media Events, or any variant of the two with more events. Click on the arrow at 
+the bottom to exit the wizard and start editing.
 
