@@ -13,7 +13,7 @@ MPAT Application Settings. Then the watch icon of the TimeLine editor appears in
 
 Here is the aspect of the TimeLine editor:
 
-![TimeLine editor](/images/timelineeditor.png)
+![TimeLine editor](images/timelineeditor.png)
 
 The top left large rectangle is the preview area, with a standard TV background as default image.
 In this preview area, the current page is shown.
@@ -61,7 +61,7 @@ to be able to edit those events, select them, move them by dragging. Because thi
 is small, the background color of the event is extended to the right of the event, with a gradient.
 The title of the page referred by the event is displayed on that fading background.
 
-![Events](/images/events.png)
+![Events](images/events.png)
 
 
 ## Howtos
@@ -129,7 +129,7 @@ ways of changing the duration of the event:
 
 The first time you access the timeline editor, you get this screen:
 
-![TimeLine wizard](/images/timelinewizard.png)
+![TimeLine wizard](images/timelinewizard.png)
 
 The text of the wizard is explicit. The principle is that you can choose between
 a standard broadcast editor with just Stream Events, a standard VOD editor with
