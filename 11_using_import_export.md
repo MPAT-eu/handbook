@@ -1,4 +1,4 @@
-#Using the Import Export plugin
+# Using the Import Export plugin
 
 The Import Export plugin is accessible in the left side bar from this icon:
 
@@ -8,14 +8,14 @@ The typical aspect of the MPAT Importer/Exporter page is this:
 
 ![Typical IE](images/typicalIE.png)
 
-##Exported packages
+## Exported packages
 
 Exported packages are JSON text files containing one or more Pages and/or Page Layouts,
 possibly with their media. As a result, these can be quite large.
 
 Exported packages are typically files with extension .mpat-page
 
-##Export
+## Export
 
 You can choose what to export:
 
@@ -26,7 +26,7 @@ You can choose what to export:
 If media are not exported, links to the current MPAT instance are kept. If the current
 MPAT instance is a private one, the export package will not work.
 
-##Import
+## Import
 
 If you click Import, you get to choose a file. This file should be an exported package.
 
