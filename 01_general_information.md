@@ -42,7 +42,7 @@ MPAT is a tool for journalists. Therefore, the initial idea when conceiving the 
 
 3. Step 3 describes the final step in the application creation process: The previously created application model is populated with actual content data. This involves creating, uploading and updating content data and as well as testing, previewing, approving and publishing the actual HbbTV application.
 
-![MPAT Workflow](/images/workflow.png)
+![MPAT Workflow](images/workflow.png)
 
 *Figure 1‑1*: General workflow for developing an MPAT Application in a journalistic context
 
@@ -56,11 +56,11 @@ models, **Website**, **SlideFlow** and **Timeline**.
 
 The original idea was to use MPAT to create *simple* pages that look like traditional websites. The Navigation Model is based on buttons, clickable tiles or an overall menu. Clicking on either will lead to another page. Website allows a flexible arrangement of pages and supports user-defined navigation.
 
-![Traditional Website - 1](/images/web_1.png)
+![Traditional Website - 1](images/web_1.png)
 
 *Figure 1‑2:* Traditional website design for an HbbTV application - taken from RBB's HbbTV app *verknallt &amp; abgedreht* (November 2015)
 
-![Traditional Website - 2](/images/web_2.png)
+![Traditional Website - 2](images/web_2.png)
 
 *Figure 1‑3:* Simple website navigation: image tiles lead to linked pages - example from RBB's first pilot application Band Camp Berlin (2016)
 
@@ -70,11 +70,11 @@ SlideFlow is the MPAT term for a very visual, very simple navigation style which
 
 Visitors navigate this application with the Arrow Up/Arrow Down buttons on the Remote Control. Videos or interactive components are activated with the OK button and if there are more than one such component on a SlideFlow page, they have to be arranged side by side rather than above each other (see Figure 6), because Arrow Up/Arrow Down are reserved for navigating between pages.
 
-![SlideFlow - 1](/images/slideflow_1.png)
+![SlideFlow - 1](images/slideflow_1.png)
 
 *Figure 1‑4:* SlideFlow page - taken from the first RBB pilot *Band Camp Berlin*
 
-![SlideFlow - 2](/images/slideflow_2.png)
+![SlideFlow - 2](images/slideflow_2.png)
 
 *Figure 1‑5:* SlideFlow page with Audio and Video Hotspots - taken from the first RBB pilot *Band Camp Berlin* (2016)
 

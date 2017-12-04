@@ -6,11 +6,11 @@ A standard Internet browser like Google Chrome (Version), Mozilla Firefox (Versi
 
 #### Firefox
 
-In order **to preview the HbbTV applications** , Mozilla Firefox v51.0.1as well as the Firefox Add-on FireHbbTV v1.3.20are needed. This Add-on must be switched on in order to preview the HbbTV application and must be switched off in order to edit the application with MPAT.
+In order **to preview the HbbTV applications** , Mozilla Firefox v51.0.1 as well as the Firefox Add-on FireHbbTV v1.3.20are needed. This Add-on must be switched on in order to preview the HbbTV application and must be switched off in order to edit the application with MPAT.
 
 **Note** : To simplify the workflow we therefore recommend using one browser that does not use FireHbbTV for editing and a Firefox browser with FireHbbTV.
 
-**Todo:** Download **Mozilla Firefox v51.0.1** or newer:
+**Todo:** Download **Mozilla Firefox v51.0.1** or newer, up to v56:
 
 + Verify the version you have installed:
 	+ Select *open menu*
@@ -39,10 +39,10 @@ Install Firefox Add-on **FireHbbTV 1.3.20** or newer by Atos Worldline:
 * Click `Load unpacked extension` and choose the location of the retrieved extension.
 * On the upper-right you'll find the following greyed-out icon
 
-  ![deactivated](/images/tv-icon128-off.png)
+  ![deactivated](images/tv-icon128-off.png)
 * Click on it to activate/de-activate
 
-  ![activated](/images/tv-icon128-on.png)
+  ![activated](images/tv-icon128-on.png)
 
 ### User Account
 

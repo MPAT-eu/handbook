@@ -15,9 +15,14 @@ In contrast to websites on a PC, you don't navigate with a pointer device (e.g. 
 
 ### Edit Component Styles individually
 
-You can define a certain style for any component or for all components (i.e., border, background color, text color, etc.).1  The text box to the right will show the current style, once you click in another field.
+You can define a certain style for any component 
+(i.e. border, background color, text color, etc.).  
 
-![Component Styles](/images/component_styles.png)
+![Component Styles](images/component_styles.png)
+
+When relevant, active item styles can be changed:
+
+![Component Styles 2](images/component_styles2.png)
 
 *Figure 6‑1:* Editing Component Styles
 

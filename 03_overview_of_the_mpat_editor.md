@@ -2,7 +2,7 @@
 
 MPAT is based on WordPress. The main editor window is therefore very similar to a WordPress editor view and is illustrated in Fig. 6. The subsequent sections will briefly outline the different menus and the underlying functionalities.
 
-![MPAT Dashboard](/images/dashboard.png)
+![MPAT Dashboard](images/dashboard.png)
 
 *Figure 3‑1*: MPAT Dashboard - Start view
 
