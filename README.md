@@ -20,6 +20,7 @@ Neither the MPAT consortium as a whole, nor a certain party of the MPAT consorti
 * [Using the Timeline](https://mpat-eu.github.io/handbook/09_using_timeline.html)
 * [Using Page Models](https://mpat-eu.github.io/handbook/10_using_pagemodels.html)
 * [Using Import Export](https://mpat-eu.github.io/handbook/11_using_import_export.html)
+* [Using Data* components](https://mpat-eu.github.io/handbook/12_using_data_components.html)
 * [Tips and Tricks](https://mpat-eu.github.io/handbook/06_tips_and_tricks.html)
 * [Troubleshooting](https://mpat-eu.github.io/handbook/07_troubleshooting.html)
 * [Terminology](https://mpat-eu.github.io/handbook/08_terminology.html)
