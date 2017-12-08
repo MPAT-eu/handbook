@@ -15,7 +15,7 @@ If you use Firefox both for editing and previewing, you will have to disable Fir
 
 If you don't the editor may not work properly.
 
-### I have problems with styles
+### I have problems with styles / I have changed a style and everything disappeared
 
 In Page Editor (note: not in the Component Editor), there is a "Check Styles" button.
 
@@ -28,7 +28,7 @@ This Check Styles checks all page- or component-specific styles within the page:
 
 Other styles are "correct by design": computed styles have been checked statically.   
 
-All these CSS fragments are joined in a CSS file and checked agains the W3C CSS 
+All these CSS fragments are joined in a CSS file and checked against the W3C CSS 
 validator service. Errors are signalled one by one in a dialog.
 
 ![Check Styles button](images/css_valid.png)
