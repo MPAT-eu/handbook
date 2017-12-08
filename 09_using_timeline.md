@@ -11,9 +11,9 @@ MPAT Application Settings. Then the watch icon of the TimeLine editor appears in
 
 ## TimeLine Editor
 
-Here is the aspect of the TimeLine editor:
+Here is the aspect of the TimeLine editor with only "pure time" events:
 
-![TimeLine editor](images/timelineeditor.png)
+![TimeLine editor](images/puretime.png)
 
 The top left large rectangle is the preview area, with a standard TV background as default image.
 In this preview area, the current page is shown.
@@ -56,12 +56,12 @@ you can swap two events. Select the event on the left of the pair, and press "SW
 Media Events and Time Events have a meaningful duration. Their duration can be changed by dragging
 the handle on the right.
 
-Other events have a constant width that has no meaning in time. The width is only useful
-to be able to edit those events, select them, move them by dragging. Because this width
-is small, the background color of the event is extended to the right of the event, with a gradient.
-The title of the page referred by the event is displayed on that fading background.
+Media Events and Time events appear in the timescale below the preview area.
+Other events appear in a gray bar below the time scale and their width has 
+no meaning in time. The width is only useful
+to be able to edit those events and select them. 
 
-![Events](images/events.png)
+![Events](images/timeandstreamevents.png)
 
 
 ## Howtos
@@ -74,7 +74,12 @@ to remove the currently displayed page
 1. Select the event to the left of the zone in which you want the new event to be inserted.
 1. Press "ADD ELEMENT"
 
-The event is then added to the right of the currently selected event, or the first free zone from the left.
+If the event is a MediaEvent or a TimeEvent, the event is then added to the right of the currently selected event, or the first free zone from the left.
+If there is no space left, the event is not added.
+
+If the event is ClockEvent, KeyEvent or StreamEvent, it is added to the gray bar below the timescale.
+The gray bar is only displayed if there are events in it. Events in the gray bar have a fixed width
+which grows smaller as the number of events in the gray bar grows.
 
 Stream Events are DVB StreamEvents. They do not have a meaningful width/duration. 
 Their apparent width is just to make them visible and selectable.
