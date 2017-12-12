@@ -17,6 +17,6 @@ Here you can add your short text. If you copy & paste the text from another webs
 
 After you cleared the styles you can start to set Headlines, bold and italic styles.
 
-![Text Component | Styles](images/Components/text_component_02.jpg)
+![Text Component - Styles](images/Components/text_component_02.jpg)
 
 Also, it is possible to change the alignment of your text with the icons you know from various text editors.

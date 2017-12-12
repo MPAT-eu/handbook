@@ -23,15 +23,15 @@ We also recommend to upload the image you want to use in your application direct
 
 To use an image from your Media Library you have to click on the **CHOOSE** button. After clicking on the button, the Media Library will open in a popup.  
 
-![Image Component | Media Library](images/Components/image_component_02.jpg)
+![Image Component - Media Library](images/Components/image_component_02.jpg)
 
 Now you can choose the image you want to add. The selected image will be highlighted and now you can click on the button **Insert into page**, to add it to your box. 
 
-![Image Component | Media Library](images/Components/image_component_03.jpg)
+![Image Component - Media Library](images/Components/image_component_03.jpg)
 
 Now the image is added to your box, the URL is displayed into the Image URL section, and you can start to crop your image, if you want to.
 
-![Image Component | Crop](images/Components/image_component_04.jpg)
+![Image Component - Crop](images/Components/image_component_04.jpg)
 
 The size of the light area over the image in the cropping section is the format of your box. You can scale this light area and click on **CROP** to crop the image. Also by clicking on **RESTORE** the image will be displayed in the original format. 
 

@@ -19,11 +19,11 @@ We recommend to use an existing stream, before you upload allot of video content
 
 To use a video and/or a thumbnail image from your Media Library you have to click on the **CHOOSE VIDEO** and/or **CHOOSE THUMBNAIL** button. After clicking on the button, the Media Library will open in a popup.  
 
-![Video Component | Media Library](images/Components/image_component_02.jpg)
+![Video Component - Media Library](images/Components/image_component_02.jpg)
 
 Now you can choose the image/video you want to add. The selected image will be highlighted and now you can click on the button **Insert into page**, to add it to your box. 
 
-![Video Component | Media Library](images/Components/image_component_03.jpg)
+![Video Component - Media Library](images/Components/image_component_03.jpg)
 
 The Thumbnail will be displayed, when you did not enable the **AUTOPLAY** option below. Also, we are using Thumbnails when the user stops the video. 
 

@@ -18,11 +18,11 @@ You do have different settings coming with the **Link Component**
 
 First you can add a URL to an image or choose the link image from the `Media Library` by clicking on the **CHOSSE LINK IMAGE** button. 
 
-![Image Component | Media Library](images/Components/image_component_02.jpg)
+![Image Component - Media Library](images/Components/image_component_02.jpg)
 
 Now you can choose the image you want to add. The selected image will be highlighted and now you can click on the button **Insert into page**, to add it to your box. 
 
-![Image Component | Media Library](images/Components/image_component_03.jpg)
+![Image Component - Media Library](images/Components/image_component_03.jpg)
 
 Now the link image is added to your box and the URL is displayed into the Link Image URL section.
 
