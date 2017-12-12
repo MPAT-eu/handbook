@@ -27,25 +27,25 @@ Now you can choose the image/video you want to add. The selected image will be h
 
 The Thumbnail will be displayed, when you did not enable the **AUTOPLAY** option below. Also, we are using Thumbnails when the user stops the video. 
 
-####Other Options
+#### Other Options
 
-#####AUTOPLAY
+##### AUTOPLAY
 If you want that your video starts directly when the user is opening the `Page`, then you have to enable **AUTOPLAY** 
 
-#####REPEAT
+##### REPEAT
 The video will be looped, after it is on the end. When **REPEAT** is not set, the video will be play to the end and stops then. 
 
-#####LIVE
+##### LIVE
 This option only changes the view of the **NAVIGATION BAR**. If you enable **LIVE**, then you will have the word LIVE instead of a video duration displayed. 
 
-#####FULLSCREEN START
+##### FULLSCREEN START
 The video will directly start in the fullscreen mode. 
 
-#####REMOVE BLACK BARS
+##### REMOVE BLACK BARS
 When your box is not in the right format, the **REMOVE BLACK BARS** function will cover the video into the box and removed the black bars. 
 
-#####PLAY ICON
+##### PLAY ICON
 The **PLAY ICON** will be displayed over the **Thumbnail** in the initial state (when autoplay is not enabled).
 
-#####SHOW NAVIGATION BAR
+##### SHOW NAVIGATION BAR
 The **Navigation Bar** can also be removed from the player.
