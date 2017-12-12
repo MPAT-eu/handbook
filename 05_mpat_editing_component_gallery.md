@@ -1,0 +1,5 @@
+## Gallery Component
+
+### General
+
+### Settings

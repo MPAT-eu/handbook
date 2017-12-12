@@ -94,11 +94,32 @@ The actual pages of an HbbTV App can be created with the help of a previously de
 
 To preview changes to a page, you can also select *Preview* and the page of the HbbTV App will be shown in the browser.
 
+#### Howto use specific Components in a Page
+
+[MPAT-Plugins](https://github.com/MPAT-eu/MPAT-plugins) brings a bundle of different HbbTV related **Components**. How to add a Component to a `Page` is described in the section above. Here you will find, how to setup a specific `Component` for your application. Just choose one Component on the list and find a short tutorial on how to edit this Component to your preffered settings.
+
+1. [Audio](https://mpat-eu.github.io/handbook/05_mpat_editing_component_audio.html)
+2. [Broadcast](https://mpat-eu.github.io/handbook/05_mpat_editing_component_broadcast.html)
+3. [Clone](https://mpat-eu.github.io/handbook/05_mpat_editing_component_clone.html)
+4. [Data](https://mpat-eu.github.io/handbook/05_mpat_editing_component_data.html)
+5. [Gallery](https://mpat-eu.github.io/handbook/05_mpat_editing_component_gallery.html)
+6. [Image](https://mpat-eu.github.io/handbook/05_mpat_editing_component_image.html)
+7. [Launcher](https://mpat-eu.github.io/handbook/05_mpat_editing_component_launcher.html)
+8. [Link](https://mpat-eu.github.io/handbook/05_mpat_editing_component_link.html)
+9. [List](https://mpat-eu.github.io/handbook/05_mpat_editing_component_list.html)
+10. [Menu](https://mpat-eu.github.io/handbook/05_mpat_editing_component_menu.html)
+11. [Red Button](https://mpat-eu.github.io/handbook/05_mpat_editing_component_red_button.html)
+12. [Scribble Live](https://mpat-eu.github.io/handbook/05_mpat_editing_component_scribble_live.html)
+13. [Scrolled Text](https://mpat-eu.github.io/handbook/05_mpat_editing_component_scrolled_text.html)
+14. [Text](https://mpat-eu.github.io/handbook/05_mpat_editing_component_text.html)
+15. [Toggel Tracking](https://mpat-eu.github.io/handbook/05_mpat_editing_component_toggle_tracking.html)
+16. [Video](https://mpat-eu.github.io/handbook/05_mpat_editing_component_video.html)
+
 #### Create a Hotspot
 
 Description:
 
-A hotspot is an interactive icon that can be used to show additional information like text, video or audio. Accordingly, three types of hotspot icons exist, text, video and audio, as illustrated in **Fig.**** 5-3**.
+A hotspot is an interactive icon that can be used to show additional information like text, video or audio. Accordingly, three types of hotspot icons exist, text, video and audio, as illustrated in **Fig. 5-3**.
 
 ![Hotspots](images/hotspot.png)
 

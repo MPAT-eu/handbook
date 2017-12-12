@@ -1,0 +1,5 @@
+## Clone Component
+
+### General
+
+### Settings
