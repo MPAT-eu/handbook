@@ -15,11 +15,21 @@ changed.
 Once you have decided all this, press the button "Create Model from Page", and in the popup
 answer the questions:
 
-* which box can be edited
-* which box can be styled
+* which box can be edited (check box in the "Editable?" column)
+* which box can be styled (check box in the "Editable styles?" column)
 * what are the allowed types for each editable box
 
-When you are finished, in the popup, press "Create".
+The currently allowed types for each box is specified in the rightmost column.
+To remove a type from the rightmost column, select that type in the selector below titled 
+"Component type to add or remove", then press the minus ("-") button of the same line.
+To add a type to the rightmost column, select that type in the selector below titled 
+"Component type to add or remove", then press the plus ("+") button of the same line.
+The type "ANY" is all "absorbing": adding ANY removes all other more specific types.
+
+On the right of the table is a sketch of the layout with box placement, size and number.
+
+When you are finished, in the popup, press the "Create" button in the lower right, or "Cancel"
+in the lower left.
 A new Page Model with the name of the Page suffixed with "_pm" is created.
 
 The Page Model created from a Page takes a copy of the Page at the time of its creation.
