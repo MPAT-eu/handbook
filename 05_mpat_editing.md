@@ -1,14 +1,15 @@
-## MPAT Editing
+# MPAT Editing
 
-### Choose a Navigation Model
+## Choose a Navigation Model
 
 Description:
 
-MPAT currently provides two different navigation models that can be used to navigate 
+MPAT currently provides three different navigation models that can be used to navigate 
 the pages of your HbbTV App:
 
 - Website: classical website-like navigation using links to navigate through the pages
-- Pageflow: specific navigation for storytelling purposes; strictly one-directional (vertical) and similar to SlideFlow navigation with large visuals
+- SlideFlow: specific navigation for storytelling purposes; strictly one-directional (vertical/horizontal) and similar to Pageflow navigation with large visuals
+- TimeLine: Usable for on-demand or broadcast video, this model defines the appearing and disappearing of components (images, texts, links, etc.) with the help of timed events (StreamEvents). 
 
 These have to be defined before you can preview an MPAT site/HbbTV App.
 
@@ -18,81 +19,54 @@ Howto:
 - Select *Navigation Model*
 - Select *Save Changes*
 
-### Wizard ###
-For beginners a [`New Page Wizard`](https://github.com/jeanphilipperuijs/mpat-newpage-wizard) plugin may help understanding the workflow.
-
-When properly installed in the `Pages` menu you'll find a new button `Wizard` (depending on your language) next to or replacing the `Add New` button in the pages overview.
-![pages](images/wizard_01_pages.png)
-
-![pages](images/wizard_02_based_upon.png)
-
-![pages](images/wizard_03_choose_create.png)
-
-![pages](images/wizard_04_editlayout.png)
-
-![pages](images/wizard_05_layoutbuilder.png)
-
-![pages](images/wizard_06_pagetitle.png)
-
-
-
-
-### Create a Page Layout
+## Create a Page Layout
 
 Description:
 
-The Page Layout defines the layout of a page of the HbbTV App without defining and including any media content. Every Page Layout that is being published can be used for building new pages. There is a grid present, which lets editors scale and position objects in 10px steps. At the moment there is no visual grid implemented.
+The Page Layout defines the layout of a page of the HbbTV App without defining and including any media content. Every Page Layout that is being published can be used for building new pages. There is a grid which helps editors scale and position objects in 10px steps.
+The grid can be made visible by ticking the box **SHOW GRID LINES**.
 
 *Howto:*
 
 - In the left menu bar select *Page Layouts*
 - Select *Add New* or select an existing Page Layout from the list
   	- If *Add New*: Enter a name for the Page Layout, e.g. * Layout First Page *
-  	- Scroll down to the *Layout Builder* editor item
-	- Load a background image: To facilitate the positioning of the Component boxes, you can select a background image. As soon as you save the Page Layout, the image will disappear. Choose background image by adding the image URL or uploading a file via *Select File*
-	- Add and position boxes on the screen: These boxes are layout placeholders for the content components that can be defined later in the process when defining pages.
-  	- Scroll to the *Publish* editor item and save the Page Layout either as a draft or publish it so that it can be used in for page building
-    	- To preview changes to a Page Layout, you can also select *Preview* and the page of the HbbTV App will be shown in the browser
+	- Load a background image: To facilitate the positioning of the Component boxes, you can select a background image. As soon as you save the Page Layout, the image will disappear; it is only used for designing the Layout. Choose background image by adding the image URL or uploading a file via *Select File*
+	- Add and position boxes on the screen: These boxes are layout placeholders for the content components that can be defined later in the process when defining pages. 
+	*Tip:* The upper left corner of each box shows its size (Width/Height) and position (From left and from top) in pixels. If you click into this box, you can enter size and position instead of dragging the box manually.
+	*Tip:* If you drag one box over another, the lower box is being repositioned. To avoid this click on the pin in the upper right corner of the box. Now its position is fixed.
+  	- *Save* the Page Layout by clicking the button in the upper right corner.
+    	
+![Layout Builder](images/wizard_05_layoutbuilder.png)
 
-![Layout Builder](images/layout.png)
+Layout Builder – View for a new Page Layout with size and position displayed
 
-*Figure 5‑1:* Layout Builder – view for a new Page Layout
-
-![Background Selector](images/background.png)
-
-*Figure 5‑2:* Select background image for Page Layout
-
-### Create a Page
+## Create a Page
 
 *Description:*
 
-The actual pages of an HbbTV App can be created with the help of a previously defined Page Layout. This way, the general concept of an HbbTV app can be defined using page layouts and specific media content can be exchanged without breaking the application.
+The actual Pages of an HbbTV App can be created with the help of a previously defined Page Layout. This way, the general concept of an HbbTV app can be defined using Page Layouts and specific media content can be adapted per page without breaking the application.
 
 *Howto:*
 
 - In the left menu bar select *Pages*
 - Select *Add New* or select an existing page from the list
-  - If *Add New*: Enter a name for the Page, e.g. our *First Page*
-  - Scroll down to the *Content Editor*
-  - Select a Page Layout from the drop down list; the selected page layout will appear in the Content Editor's preview window below
-  - Select a background image by adding the image URL (if the file is already available online) or uploading a file via *Select File*
-  - Customize the content components: The Content Editor canvas shows the selected page layout with the boxes being shown as content components. Each content component has three parameter icons
-    - Pen                 – to further define the content component
-    - Folder                 – to select a Template
-    - Gear wheel         – to define that this component will have the _Focus_ (active element) when the page is loaded first
+  - If *Add New*: Enter a name for the Page underneath the Page Preview, e.g. our *First Page*
+  - Select a **PAGE LAYOUT** from the drop-down list; the selected page layout will appear in the Content Editor's preview window
+  - Select a background image by adding the image URL (if the file is already available online) or uploading a file via *Select File*. 
+  *Tip:* If you want to use one background image for all pages of this application, you can define this in the Customizer. This is highly recommended, because TV devices usually don't cache such images, so that they have to be loaded for every page which slows down the app. If you have defined a "global" background image, you can still define a background image for the current page, if you want it to be different here.
+- Customize the content components: The Content Editor canvas shows the selected page layout with the boxes being shown as content components. Each content component has two parameter icons
+    - Pen (top left)         – to further define the content for this component
+    - Gear wheel (top right) – to define that this component will have the _Focus_ (active element) when the page is loaded first
   - If *Pen* was selected, the following parameters can be set:
-    - Choose Component - Open the drop down list and choose the type of content that is going to be displayed by the component (i.e. text, image, audio, video, etc.)
+    - Choose *COMPONENT TYPE* - Open the drop-down list and choose the type of content that is going to be displayed by the component (i.e. text, image, audio, video, etc.)
     - Navigable – Checkmark, if you want to enable users to navigate to the component; for example, if you have chosen a video component, you might want to navigate to the component with the remote control to start and stop the video by selecting OK
-    - Hot Spot – Set, if the component will act as a hot spot.
-    - Companion Screen – currently not available
-    - Component Style – Select *Edit…* if you want to define a certain style for this component or for all components (i.e., border, background color, text color, etc.).  For detail see 6.4Edit Component Styles individually.
-    - Template Title – Enter a template name and save the _Component_ as a template.
-    - All other settings depend on the content component that was chosen.
-    - Select *Back* to go back to the Content Editor item. Your settings will be applied without actively saving, but – as in all editing sessions – frequent saving is recommended.
-  - Scroll to the *Publish* editor item (top right) and save the page. It has now become part of your application
-  - If this is the first page that you have created you may not see it when you test on a TV set. You will have to define your first page as the start page.
+    - Component Style – Select *Edit…* if you want to define a certain style for this component (e.g., border, background color, text color, etc.).
+ - All other settings depend on the content component that was chosen.
+ - Save the page using the button at the top right of the browser window - as in all other applications, frequent saving is recommended. The page has now become part of your application.
+  - If this is the first page that you have created you may not see it when you test on a TV set. You will have to define your first page as the start page in the Application Manager.
 
-To preview changes to a page, you can also select *Preview* and the page of the HbbTV App will be shown in the browser.
+To preview changes to a page, you can open the *PAGE LINK* and the page of the HbbTV App will be shown in the browser.
 
 #### Howto use specific Components in a Page
 
@@ -115,7 +89,7 @@ To preview changes to a page, you can also select *Preview* and the page of the 
 15. [Toggle Tracking](https://mpat-eu.github.io/handbook/05_mpat_editing_component_toggle_tracking.html)
 16. [Video](https://mpat-eu.github.io/handbook/05_mpat_editing_component_video.html)
 
-#### Create a Hotspot
+### Create a Hotspot
 
 Description:
 
@@ -144,9 +118,9 @@ Howto:
   - Customize the hotspot, i.e., choose colors, add text or links to the media data
   - *Update* the page to save it
 
-### Configure the Navigation
+## Configure the Navigation
 
-#### Define a Start Page
+### Define a Start Page
 
 Description:
 
@@ -158,7 +132,7 @@ Howto:
 - Select *Frontpage*
 - Choose the first page of your application from the dropdown list
 
-#### Add a Menu to Connect Pages
+### Add a Menu to Connect Pages
 
 Description:
 
@@ -182,7 +156,7 @@ This key can later be pressed on the remote control to jump to the page directly
   - Scroll to the *Publish* editor item (top right) and update the page.
   - In the Content Editor widget select *Back*.
 
-#### Add Links to Connect Pages
+### Add Links to Connect Pages
 
 Description:
 
@@ -204,7 +178,7 @@ Howto:
   - Scroll to the *Publish* editor item (top right) and update the page.
   - In the Content Editor widget select *Back*.
 
-#### Define the Order of Pages (SlideFlow only)
+### Define the Order of Pages (SlideFlow only)
 
 Description:
 
@@ -216,11 +190,11 @@ Howto:
 - Verify that the selected Navigation model is *Pageflow* (should be SlideFlow)
 - Define the order of pages at *Pageflow pages order* (*exclude* pages that should remain invisible).
 
-### Customize the Application
+## Customize the Application
 
 The options described here are provided by the *Appearance* menu and have an effect on the overall MPAT site. Individual changes to the elements of an MPAT page can be made when configuring the content components under *Component Style* (see also Create a Page).
 
-#### Customize Links
+### Customize Links
 
 Description:
 
@@ -233,7 +207,7 @@ Howto:
 - Change the color at *Edit Selected Border Color*
 - At the top of the menu select *Save &amp; Publish*
 
-#### Focus & Active Elements
+### Focus & Active Elements
 
 Description:
 
@@ -246,7 +220,7 @@ Howto:
 - Change the color at *Edit Selected Border Color*
 - At the top of the menu select *Save &amp; Publish*
 
-### Publish the Application
+## Publish the Application
 
 Description:
 
