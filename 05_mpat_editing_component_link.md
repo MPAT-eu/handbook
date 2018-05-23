@@ -2,7 +2,7 @@
 
 ### General
 
-The **Link Component** can be used to add image and/or text links to a page. You can use links to navigate to existing pages or to other HbbTV applications. A **Link Component** cannot be used with color or number keys of the remote control, or for controlling the application (e.g. hide the app). If you want to link to a page or application using the remote control keys, please use the [Menu Component](https://mpat-eu.github.io/handbook/05_mpat_editing_component_menu.html).
+The **Link Component** can be used to add image and/or text links to a page. You can use links to navigate to existing pages or to other HbbTV applications. A **Link Component** cannot be used with colour or number keys of the remote control, or for controlling the application (e.g. hide the app). If you want to link to a page or application using the remote control keys, please use the [Menu Component](https://mpat-eu.github.io/handbook/05_mpat_editing_component_menu.html).
 
 ### Settings
 
