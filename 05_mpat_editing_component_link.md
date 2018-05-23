@@ -26,6 +26,7 @@ Here you can choose the image you want to add. The selected image will be highli
 ![Image Component - Media Library](images/Components/image_component_03.jpg)
 
 Now the link image is added to your box and the URL is displayed in the field 'Link Image URL'.
+If you want a different image to appear when the link is "in focus", you can select a **LINK FOCUSED IMAGE** the same way.
 
 If you want to add a label to your link, you can add it via the Link Label section. Just type your text into the textfield next to it. 
 For the Label you can change the style using **COMPONENT STYLE**.
