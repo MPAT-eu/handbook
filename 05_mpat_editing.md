@@ -112,7 +112,7 @@ To preview changes to a page, you can also select *Preview* and the page of the 
 12. [Scribble Live](https://mpat-eu.github.io/handbook/05_mpat_editing_component_scribble_live.html)
 13. [Scrolled Text](https://mpat-eu.github.io/handbook/05_mpat_editing_component_scrolled_text.html)
 14. [Text](https://mpat-eu.github.io/handbook/05_mpat_editing_component_text.html)
-15. [Toggel Tracking](https://mpat-eu.github.io/handbook/05_mpat_editing_component_toggle_tracking.html)
+15. [Toggle Tracking](https://mpat-eu.github.io/handbook/05_mpat_editing_component_toggle_tracking.html)
 16. [Video](https://mpat-eu.github.io/handbook/05_mpat_editing_component_video.html)
 
 #### Create a Hotspot
