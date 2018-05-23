@@ -8,13 +8,14 @@ The **Link Component** can be used to add image and/or text links to a page. You
 
 You have different settings coming with the **Link Component**
 
+1. LINK IMAGE
 2. LINK FOCUSED IMAGE
 3. LINK LABEL
 4. LINK TARGET
 5. PAGES
 6. IMAGE LAYOUT COVER
 
-![Link Component](images/Components/link_component_01.jpg)
+![Link Component](images/Components/link_component_01_new.jpg)
 
 First you can add a URL of an image or choose the link image from the `Media Library` by clicking on the **CHOSSE LINK IMAGE** button. 
 
