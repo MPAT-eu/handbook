@@ -26,6 +26,10 @@ In addition to the general design of the application structure and layout, MPAT 
 
 MPAT is a tool for journalists and editors. Therefore, the initial idea when conceiving the authoring tool was to split the application development process into three steps, illustrated below:
 
+![MPAT Workflow](images/workflow.png)
+
+*Figure*: General workflow for developing an MPAT Application in a journalistic context
+
 1. The journalist develops a concept for a story. This concept serves as a basis for an HbbTV application concept. The application concept is bound to the feature set of the MPAT editor, illustrated by the *MPAT Handbook*, and can be conceived together with an MPAT application creator. In other words, based on the journalistic concept and with the help of an MPAT Handbook (which describes features and development workflows), journalists and application creators develop a concept for an interactive HbbTV application.
 
 2. In a second step, the application creator picks up on the developed concept and turns it into a generic and empty (with no content) MPAT application, an **application model** , which can be re-used for different stories. Therefore, the application creator:
@@ -37,9 +41,7 @@ MPAT is a tool for journalists and editors. Therefore, the initial idea when con
 
 3. Step 3 describes the final step in the application creation process: The previously created application model is populated with actual content data. This involves creating, uploading and updating content data as well as testing, previewing, approving and publishing the actual HbbTV application.
 
-![MPAT Workflow](images/workflow.png)
-
-*Figure*: General workflow for developing an MPAT Application in a journalistic context
+For details check the description of [MPAT Editing](https://mpat-eu.github.io/handbook/05_mpat_editing.html).
 
 ## Application Design & Navigation Models
 
