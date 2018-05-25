@@ -5,6 +5,7 @@ This glossary aims to explain the necessary terms and functions. Where appliccab
 | **Term** | **Definition** |
 |---|---|
 | **Application** | An application consists of *a)* 1-n pages, *b)* follows a Navigation Model |
+| **Browser** | MPAT is based on WordPress and edited in web browser, e.g. Chrome, Firefox and Internet Explorer. |
 | **Component** | A component is also referred to as content type and defines certain functionality that can be added to a page based on the selected Page Layout. For instance, a component can be an image canvas or image gallery, a video player, or a text field. |
 | **CSS** | You can define general settings like font size and colours, border colours, etc. by entering CSS code in the Customizer. |
 | **Customisation** | There are different kinds of general configurations like the global background image, font settings, the definition of a Start Page, and many others |
@@ -17,5 +18,6 @@ This glossary aims to explain the necessary terms and functions. Where appliccab
 | **Page** | Every application consists of 1-n Pages. The Content Creator decides on the number, order and the content of the pages. |
 | **Page Layout** | Every page of an application is based on a Page Layout. Page Layouts are created and edited in their own WordPress category. A Page Layout defines the positioning of boxes, not which modules will appear in these boxes - usually the App Creator will foresee a certain component for each box, but it is the Content Editor’s choice what s/he wants to put there. |
 | **Page Model** | A [Page Model](https://mpat-eu.github.io/handbook/10_using_pagemodels.html) is a template that an application manager would provide for editors. While the Page Layout does not pre-define which content component will be in which box, the Page Model defines certain deatils, such as components and formats for various boxes. |
+| **Preview** | The HbbTV applications can be previewed in a web browser. For more details check the [Requirements and First Steps](https://github.com/MPAT-eu/handbook/blob/master/02_requirements_and_first_steps.md).|
 | **Site** | In the MPAT-Editor each site represents a full HbbTV application. To avoid ambiguities, the term "website" should be replaced with "HbbTV Site" or “MP Application” (a Multi-Platform Application which is built with the Multi-Platform Application Toolkit, MPAT). |
 | **Style Sheets** | see CSS.|
