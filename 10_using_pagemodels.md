@@ -1,6 +1,13 @@
 # Page Models
 
-Page Models are templates for partially editable pages.
+Page Models are templates for partially editable pages. In a page model, every layout box is marked
+as editable or not, stylable or not, and what kind of component is allowed in the box.
+
+From a page model, you can create a page that is a copy of the current state of the page model.
+Such a page is a page model instance. In a page model instance, only the boxes marked as editable
+can be edited.
+
+If you change a page model, the page model instances already created before the change are not modified. 
 
 ## How to create a Page Model
 
