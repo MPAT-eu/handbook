@@ -55,7 +55,20 @@ The two classes are by default:
 }
 ```
 
-To have scrollbars overlapping the text, remove the line with `padding-right`
+To have scrollbars overlapping the text:
+
+``` css
+.MPATScrolledTextScrollBar {
+  position: absolute;
+  right: 0;
+  width: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+
+.MPATScrolledTextWithScrollBar {
+}
+```
 
 To remove scrollbars, change `style.css` to:
 
