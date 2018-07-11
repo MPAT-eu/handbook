@@ -28,3 +28,42 @@ Settings include:
 ![Scrolled Text Settings](images/scrolledtextsettings.png)
 
 ![Arrow Positions](images/arrowpositions.png)
+
+### Scrollbar
+
+It is possible to have a scrollbar on Scrolled Text components. This may look like the picture below:
+
+![Scrollbar](images/scrollbar.png)
+
+The style of the scrollbar is driven by the CSS class `MPATScrolledTextScrollBar` in the `mpat-theme` file `style.css`.
+
+Another CSS class called `MPATScrolledTextWithScrollBar` allows the text not to be overlapped by the scrollbar.
+
+The two classes are by default:
+
+``` css
+.MPATScrolledTextScrollBar {
+  position: absolute;
+  right: 0;
+  width: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+
+.MPATScrolledTextWithScrollBar {
+  padding-right: 15px;
+}
+```
+
+To have scrollbars overlapping the text, remove the line with `padding-right`
+
+To remove scrollbars, change `style.css` to:
+
+``` css
+.MPATScrolledTextScrollBar {
+  background-color: transparent;
+}
+
+.MPATScrolledTextWithScrollBar {
+}
+```
