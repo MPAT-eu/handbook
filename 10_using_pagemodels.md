@@ -49,7 +49,7 @@ You get one choice.
 
 ![Choice](images/pagemodelchoice.png)
 
-If you click on the right button, you get to create a Page Model Instance.
+If you click on the middle button, you get to create a Page Model Instance.
 
 A Page Model Instance is a copy of the Page Model at that moment. If you modify the 
 Page Model after this, the Page Model instance is unchanged.
@@ -79,3 +79,20 @@ A Page Model can be edited with the same interface as a Page.
 
 When you edit a Page Model and save it, neither the original Page nor any of the Page
 Model instances created from this Page Model are modified.
+
+## Updating page model instances
+
+Page model changes are not automatically propagated to the instances of the page model.
+
+To update instances, go to the Page Models overview. Choose a Page Model and click on it.
+You get one choice.
+
+![Choice](images/pagemodelchoice.png)
+
+If you choose the last button to the right, you will get to a list of instances of this
+model. Beside each instance title, you will see:
+
+* either `(Nothing to do)`, which means that there are no differences between the
+non-editable boxes of the page model and the matching boxes of the instances.
+* or a `Change` button: clicking on this button changes the non-editable boxes of the
+instance to the same state as the page model's and saves the result
