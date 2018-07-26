@@ -28,6 +28,13 @@ script in `index.php` of the `mpat-theme`:
 var RedButtonFader = (function () {
     "use strict";
     var exports = {}, progress;
+    // the Page class in the front end reads this RedButtonMode 
+    // which can take as values:
+    // all : all pages can be hidden by the red button
+    // some : only pages with hideOnRed can be hidden by the red button (set in Page Editor)
+    // none : global of the red button feature (overrides page settings)
+    exports.RedButtonMode = 'all';
+    exports.defaultText = 'Press RED button to show again';
     exports.resolution = 10; // 10 updates per second
     exports.durationOnScreen = 10 * exports.resolution; // 10s on screen
     exports.totalDuration = 300 * exports.resolution; // 5m total period
@@ -44,6 +51,8 @@ In this code:
 * `durationOnScreen` is the number of seconds that the red button reminder stays on screen.
 * `totalDuration` is the number of seconds of the complete cycle.
 * `animationDuration` is the duration of the period for easing the reminder in and out.
+* `RedButtonMode` is documented in the comments in the code
+* `defaultText` is the text for the reminder when not defined in the page settings
 
 The code below this fragment animates the position of the reminder from on the bottom to
 30 pixels below the bottom (and not visible anymore).
