@@ -84,3 +84,13 @@ TimeLine is a navigation model with a time line, along which pages can be displa
 * the time since the HbbTV application started
 * the wallclock time
 * a key stroke on the remote control
+
+### Extending MPAT
+
+MPAT implements or reuses 7 REST APIs:
+
+* pages: this is an extension of the WordPress page REST API at **.../wp-json/wp/v2/pages**
+* layouts: this is a new REST API specific to MPAT Page Layouts at **.../wp-json/mpat/v1/layout**
+* models: this is a new REST API specific to MPAT Page Models at **.../wp-json/mpat/v1/model**
+* options: this is a new REST API related to standard WordPress options at **.../wp-json/mpat/v1/option**
+* as well as 3 Assets APIs to be described later. 
