@@ -13,49 +13,25 @@ Pressing the RED button again replaces the short reminder with the page.
 
 The short text reminder and icon stay on screen by default for 10s, and are eased out for 5mn.
 
-## Setting the option in Page editor
+## Setting the option per page in Page editor
 
 At the bottom of the page editor, there is a checkbox 
 labelled "Hide page with RED button". If you validate this checkbox, a text field allows you to define
 the reminder message that is displayed instead of the page when the RED button has been pressed.
 
-## Setting options in the mpat-theme
+## Setting options 
 
-Details of on screen time and easing out and easing in and total time are located in a
-script in `index.php` of the `mpat-theme`:
+Setting options is done in the Application Manager:
 
-```javascript
-var RedButtonFader = (function () {
-    "use strict";
-    var exports = {}, progress;
-    // the Page class in the front end reads this RedButtonMode 
-    // which can take as values:
-    // all : all pages can be hidden by the red button
-    // some : only pages with hideOnRed can be hidden by the red button (set in Page Editor)
-    // none : global of the red button feature (overrides page settings)
-    exports.RedButtonMode = 'all';
-    exports.defaultText = 'Press RED button to show again';
-    exports.resolution = 10; // 10 updates per second
-    exports.durationOnScreen = 10 * exports.resolution; // 10s on screen
-    exports.totalDuration = 300 * exports.resolution; // 5m total period
-    exports.animationDuration = 2 * exports.resolution; // animation 2s
-    exports.bottomIn = 0; // value of bottom when in
-    exports.bottomOut = -30; // value of bottom when out
-    exports.fade = function (div, i) {
-      ...
-```
-
-In this code:
- 
-* `resolution` is the number of visual updates of the position per second.
-* `durationOnScreen` is the number of seconds that the red button reminder stays on screen.
-* `totalDuration` is the number of seconds of the complete cycle.
-* `animationDuration` is the duration of the period for easing the reminder in and out.
-* `RedButtonMode` is documented in the comments in the code
-* `defaultText` is the text for the reminder when not defined in the page settings
-
-The code below this fragment animates the position of the reminder from on the bottom to
-30 pixels below the bottom (and not visible anymore).
+* Configuration: All pages / Only pages allowing it / None
+* Mode: Text and icon slide in/out or fade in/out
+* Direction: when in `Slide in/out` mode, you can choose the initial position of the text and icon as 
+Bottom (default), Left, Right or Top.
+* Duration: the total duration, defaults to 300s
+* Onscreen duration: the text and icon stay on screen for that time before going, defaults to 10s 
+* Outside position: when in `Slide in/out` mode, you may need to increase the sliding movement depending 
+on the styles you use, e.g. margins
+* Default text: the text, unless it is specified in the page by the page editor
 
 ## Styling 
 
@@ -71,22 +47,30 @@ The style of the text is defined in CSS in the style.css of mpat-theme:
     right: 0;
 }
 
-.MPATShowOnRedIcon {
+.MPATShowOnRedIconLeft {
     width: 20px;
     height: 20px;
+    border-radius: 10px;
+    position: relative;
+    bottom: -4px;
     background-color: red;
     display: inline-block;
     margin-left: 5px;
 }
+
+.MPATShowOnRedIconRight {
+    width: 0;
+    height: 0;
+    display: inline-block;
+}
 ```
 
-This means that by default the reminder text is shown in white at the bottom right of the screen with a 20px red square.
+This means that by default the reminder text is shown in white at the bottom right of the screen with a 20px red circle
+to its left. You can use background-image to replace the left or right icon style with an image.
 
 ## Tuning
 
-* To change the frequency of the reminder, change `totalDuration` in the javascript of `index.php`
 * To change the color or style of the text, change the CSS class `MPATShowOnRedTextStyle` 
 in `style.css`
 * To change the red square to an icon, change `background-color: red` to
-`background-image: url(/path/to/image.png)` in `MPATShowOnRedIcon` in `style.css`
-* To change from vertical ease in-out to horizontal, you would have to modify the script `fade`
+`background-image: url(/path/to/image.png)` in `MPATShowOnRedIconLeft` in `style.css`
